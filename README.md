@@ -6,3 +6,7 @@
 **The home section and the header**
 
 ![Home and header sections](./readme-images/home-and%20-header.png)
+
+**The about section of the page**
+
+![The about section of the page](/readme-images/about%20section.png)
