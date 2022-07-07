@@ -268,7 +268,7 @@ body {
     font-size: 1.5rem;
     text-align: justify;
     line-height: 1.5;
-    color: #888;
+    color: #333;
     /* border: 1px solid #999;
     padding: .5rem; */
 }
@@ -280,6 +280,107 @@ body {
     background-color: #ccc;
     padding: 1rem;
     border-radius: 3px;
+}
+
+
+.staff-section__description{
+  font-size: 1.6rem;
+  word-spacing: 3px;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.staf-section__container{
+  width: 80vw;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  justify-items: center;
+  gap: 3rem;
+}
+
+.staff{
+  padding: 1rem;
+  /* max-width: 30rem; */
+  background-color: var(--color-white);
+  box-shadow: 2px 2px 2px  2px #999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.staff__image{
+  --size: 10rem;
+  width: var(--size);
+  height: var(--size);
+  margin-bottom: 2rem;
+}
+
+.staff__image--img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.official__details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.official__name{
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+
+.official__position{
+  text-transform: capitalize;
+  padding: .5rem;
+  background-color: rgba(153, 153, 153, 0.389);
+  border-radius: 1px;
+}
+
+.official__description{
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.official__social{
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.official__social >*:not(:last-child){
+  margin-right: auto;
+}
+
+.official__social--link, .official__social--link:visited{
+  --size: 4rem;
+  display: block;
+  text-decoration: none;
+  width: var(--size);
+  height: var(--size);
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: rgba(51, 51, 51, 0.188);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.official__social--link--icon{
+  --size: 4rem;
+  width: var(--size);
+  height: var(--size);
 }
 
 

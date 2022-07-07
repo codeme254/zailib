@@ -10,3 +10,7 @@
 **The about section of the page**
 
 ![The about section of the page](/readme-images/about%20section.png)
+
+**The staff section of the page**
+![staff section beginning](/readme-images/staff-section.png)
+![staff section end](/readme-images/staff-section-end.png)

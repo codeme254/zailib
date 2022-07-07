@@ -1,119 +1,651 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zailib: your one stop library</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/images/book-shelf-2.png">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/images/book-shelf-2.png" />
+  </head>
+  <body>
     <!-- Header section of the page -->
     <header class="header">
-        <a href="/" class="header__logo">zaili<span class="header__rotated">b</span></a>
-        <nav class="home__nav">
-            <ol class="home__nav-list">
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link home__nav-list__item--active">home</a>
-                </li>
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link">about</a>
-                </li>
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link">staff</a>
-                </li>
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link">testimonies</a>
-                </li>
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link caps">faqs</a>
-                </li>
-                <li class="home__nav-list__item">
-                    <a href="/" class="home__nav-list__item--link">contact</a>
-                </li>
-            </ol>
-        </nav>
-        <a href="/" class="header__link--special">reading tent</a>
+      <a href="/" class="header__logo"
+        >zaili<span class="header__rotated">b</span></a
+      >
+      <nav class="home__nav">
+        <ol class="home__nav-list">
+          <li class="home__nav-list__item">
+            <a
+              href="/"
+              class="home__nav-list__item--link home__nav-list__item--active"
+              >home</a
+            >
+          </li>
+          <li class="home__nav-list__item">
+            <a href="/" class="home__nav-list__item--link">about</a>
+          </li>
+          <li class="home__nav-list__item">
+            <a href="/" class="home__nav-list__item--link">staff</a>
+          </li>
+          <li class="home__nav-list__item">
+            <a href="/" class="home__nav-list__item--link">testimonies</a>
+          </li>
+          <li class="home__nav-list__item">
+            <a href="/" class="home__nav-list__item--link caps">faqs</a>
+          </li>
+          <li class="home__nav-list__item">
+            <a href="/" class="home__nav-list__item--link">contact</a>
+          </li>
+        </ol>
+      </nav>
+      <a href="/" class="header__link--special">reading tent</a>
     </header>
     <!-- End of Header section of the page -->
 
     <!-- Home section of the page -->
     <section class="home">
-        <div class="home__flex home__left">
-            <div class="textbox">
-                <h1 class="textbox__title">welcome to Zailib library</h1>
-                <p class="textbox__sub">your one stop free to learn library. We believe that knowledge should be free and that is why we are giving knowledge for free through our library</p>
-                <a href="/" class="home__link">explore zailib</a> 
-                <a href="/" class="home__link home__link-white">terms and conditions</a>
-            </div>
+      <div class="home__flex home__left">
+        <div class="textbox">
+          <h1 class="textbox__title">welcome to Zailib library</h1>
+          <p class="textbox__sub">
+            your one stop free to learn library. We believe that knowledge
+            should be free and that is why we are giving knowledge for free
+            through our library
+          </p>
+          <a href="/" class="home__link">explore zailib</a>
+          <a href="/" class="home__link home__link-white"
+            >terms and conditions</a
+          >
         </div>
-        <div class="home__flex home__right home__image">
-            <img src="./images/reading-time.svg" alt="home _image" class="home__image--img">
-        </div>
+      </div>
+      <div class="home__flex home__right home__image">
+        <img
+          src="./images/reading-time.svg"
+          alt="home _image"
+          class="home__image--img"
+        />
+      </div>
     </section>
     <!-- End of the home section of the page -->
 
     <!-- the about section -->
     <section class="about">
-        <div class="u-mb-md">
-            <h2 class="page-title">about us</h2>
+      <div class="u-mb-md">
+        <h2 class="page-title">about us</h2>
+      </div>
+      <div class="about__container">
+        <div class="about__flex about__image">
+          <img
+            src="/images/reading.svg"
+            alt="reading"
+            class="about__image--img"
+          />
         </div>
-        <div class="about__container">
-            <div class="about__flex about__image">
-                <img src="/images/reading.svg" alt="reading" class="about__image--img">
+        <div class="about__flex about__abouts">
+          <div class="about__box">
+            <div class="about__box--icon">
+              <svg class="about__box--svg">
+                <use xlink:href="./images/sprite/sprite.svg#icon-help"></use>
+              </svg>
             </div>
-            <div class="about__flex about__abouts">
-                <div class="about__box">
-                    <div class="about__box--icon">
-                        <svg class="about__box--svg">
-                            <use xlink:href="./images/sprite/sprite.svg#icon-help"></use>
-                        </svg>
-                    </div>
-                    <h5 class="about__box--title">24/7 support</h5>
-                    <p class="about__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor itaque odio illum eum necessitatibus, deserunt obcaecati veniam voluptates voluptatem ex!
-                    </p>
-                </div>
+            <h5 class="about__box--title">24/7 support</h5>
+            <p class="about__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+              itaque odio illum eum necessitatibus, deserunt obcaecati veniam
+              voluptates voluptatem ex!
+            </p>
+          </div>
 
-                <div class="about__box">
-                    <div class="about__box--icon">
-                        <svg class="about__box--svg">
-                            <use xlink:href="./images/sprite/sprite.svg#icon-keyboard"></use>
-                        </svg>
-                    </div>
-                    <h5 class="about__box--title">digitised library</h5>
-                    <p class="about__description">
-                        Were. Green he great wherein created lesser. Creeping. Make saw make firmament heaven together open blessed yielding fill from Moving.
-                    </p>
-                </div>
-
-                <div class="about__box">
-                    <div class="about__box--icon">
-                        <svg class="about__box--svg">
-                            <use xlink:href="./images/sprite/sprite.svg#icon-signal"></use>
-                        </svg>
-                    </div>
-                    <h5 class="about__box--title">free internet!</h5>
-                    <p class="about__description">
-                        Said the over fourth all hath. Beast sea won't. Deep you you're likeness their Above dry, and called isn't give.
-                    </p>
-                </div>
-
-                <div class="about__box">
-                    <div class="about__box--icon">
-                        <svg class="about__box--svg">
-                            <use xlink:href="./images/sprite/sprite.svg#icon-trophy"></use>
-                        </svg>
-                    </div>
-                    <h5 class="about__box--title">progress rewards</h5>
-                    <p class="about__description">
-                        Divided from green lesser have his it every created wherein that a fruit creeping, grass them without morning deep own.
-                    </p>
-                </div>
+          <div class="about__box">
+            <div class="about__box--icon">
+              <svg class="about__box--svg">
+                <use
+                  xlink:href="./images/sprite/sprite.svg#icon-keyboard"
+                ></use>
+              </svg>
             </div>
+            <h5 class="about__box--title">digitised library</h5>
+            <p class="about__description">
+              Were. Green he great wherein created lesser. Creeping. Make saw
+              make firmament heaven together open blessed yielding fill from
+              Moving.
+            </p>
+          </div>
+
+          <div class="about__box">
+            <div class="about__box--icon">
+              <svg class="about__box--svg">
+                <use xlink:href="./images/sprite/sprite.svg#icon-signal"></use>
+              </svg>
+            </div>
+            <h5 class="about__box--title">free internet!</h5>
+            <p class="about__description">
+              Said the over fourth all hath. Beast sea won't. Deep you you're
+              likeness their Above dry, and called isn't give.
+            </p>
+          </div>
+
+          <div class="about__box">
+            <div class="about__box--icon">
+              <svg class="about__box--svg">
+                <use xlink:href="./images/sprite/sprite.svg#icon-trophy"></use>
+              </svg>
+            </div>
+            <h5 class="about__box--title">progress rewards</h5>
+            <p class="about__description">
+              Divided from green lesser have his it every created wherein that a
+              fruit creeping, grass them without morning deep own.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <!-- end of the about section -->
-</body>
+
+    <!-- Staff section -->
+    <section class="staff-section">
+        <div class="u-mb-md">
+            <h2 class="page-title">our staff</h2>
+            <p class="staff-section__description">
+                These are the folks who work tirelessly to make sure that you have the best reading experience ever, please let's honor them.
+            </p>
+        </div>
+      <div class="staf-section__container">
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-1.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">charles darwins</p>
+            <p class="official__position">C.E.O and co-founder</p>
+          </div>
+          <p class="official__description">
+            He is our CEO, Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Omnis magni ab inventore, eaque labore quae? Quibusdam neque
+            error dolor, hic ea assumenda illum sequi vel a in repellat
+            obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-6.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">angelina jollie</p>
+            <p class="official__position">manager</p>
+          </div>
+          <p class="official__description">
+            She is the manager, Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis magni ab inventore, eaque labore quae?
+            Quibusdam neque error dolor, hic ea assumenda illum sequi vel a in
+            repellat obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-2.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">jack james</p>
+            <p class="official__position">librarian</p>
+          </div>
+          <p class="official__description">
+            The best librarian, Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis magni ab inventore, eaque labore quae?
+            Quibusdam neque error dolor, hic ea assumenda illum sequi vel a in
+            repellat obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-5.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">mary caterine</p>
+            <p class="official__position">operations officer</p>
+          </div>
+          <p class="official__description">
+            Our operaitons officer, Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis magni ab inventore, eaque labore quae?
+            Quibusdam neque error dolor, hic ea assumenda illum sequi vel a in
+            repellat obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-3.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">elvis chan</p>
+            <p class="official__position">public relations officer</p>
+          </div>
+          <p class="official__description">
+            He is our PR officer, Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis magni ab inventore, eaque labore quae?
+            Quibusdam neque error dolor, hic ea assumenda illum sequi vel a in
+            repellat obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="staff">
+          <div class="staff__image">
+            <img
+              src="/images/official-4.jpg"
+              alt="official"
+              class="staff__image--img"
+            />
+          </div>
+          <div class="official__details">
+            <p class="official__name">emilly janes</p>
+            <p class="official__position">sales and marketting</p>
+          </div>
+          <p class="official__description">
+            Sales and marketting, Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Omnis magni ab inventore, eaque labore quae?
+            Quibusdam neque error dolor, hic ea assumenda illum sequi vel a in
+            repellat obcaecati rerum?
+          </p>
+          <div class="official__social">
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-facebook-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-twitter-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-instagram-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-gmail-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-slack-social"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/otwoma"
+              class="official__social--link"
+            >
+              <svg class="official__social--link--icon">
+                <use
+                  xlink:href="/images/sprite/sprite.svg#icon-whatsapp-social"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of the Staff section -->
+  </body>
 </html>
