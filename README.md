@@ -14,3 +14,6 @@
 **The staff section of the page**
 ![staff section beginning](/readme-images/staff-section.png)
 ![staff section end](/readme-images/staff-section-end.png)
+
+**The testimonies and footer section**
+![the testimonies and the footer section](./readme-images/testimonies-and-footer.png)
